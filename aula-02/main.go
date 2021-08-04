@@ -10,6 +10,6 @@ func main() {
 	fmt.Println("Olá do arquivo main do novo módulo")
 	auxiliar.Escrever()
 
-	erro := checkmail.ValidadeFormat("filipe.tomita@gmailcom")
+	erro := checkmail.ValidateFormat("filipe.tomita@gmail.com")
 	fmt.Println(erro)
 }
